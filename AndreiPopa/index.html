@@ -9,17 +9,87 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
+<style>
+    table,
+    tr,
+    th,
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+</style>
 
 <body>
-    <h1>My student form</h1>
-    <form>
-        <label for="firstname">First Name:</label>
-        <input type="FirstName" name="firstname" placeholder="Andrei ">
+    <div class="studentform">
+        <h1>My student form!</h1>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="FirstName" name="firstname" placeholder="Andrei ">
+            <br><br>
 
-        <br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="LastName" name="lastname" placeholder="Popa">
+            <br><br>
 
-    </form>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="numbers" name="phonenumber" placeholder="075xxxxxxx" required>
+            <br><br>
 
+            <label for="button">Click on MyFacebook:</label>
+            <a href="https://www.facebook.com/popa.andrey93"><input type="button" value="MyFacebook"></a>
+            <br><br>
+
+            <label for="">Date of birth:</label>
+            <input type="date" name="dateofbirth">
+
+        </form>
+    </div>
+    <br><br><br>
+    <div>
+        <h1>My student table!</h1>
+        <table id="studenttable" style="width: 50%;">
+            <tr>
+                <th>ID:</th>
+                <th>First Name:</th>
+                <th>Last Name:</th>
+                <th>Phone Number:</th>
+
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Andrei</td>
+                <td>Popa</td>
+                <td>0735996578</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Mihai</td>
+                <td>Pantof</td>
+                <td>0733265780</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Emi</td>
+                <td>Zula</td>
+                <td>0777996578</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Vlad</td>
+                <td>Voronici</td>
+                <td>0735996458</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Marius</td>
+                <td>Mitrache</td>
+                <td>0735996455</td>
+            </tr>
+
+
+
+        </table>
+    </div>
 </body>
 
 </html>
