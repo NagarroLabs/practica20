@@ -7,63 +7,62 @@
         <title>Form+Table</title>
     </head>
     <body>
-        <h1>Form</h1>
-        <br><br>
-        <div class="form">
-            <form>
+        <h1 class="mainTitle">Form</h1>
+        <div>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+            </form>
+            <form class="submissionForm">
                 <div class="input fields">
                 <label for="firstName">First Name:</label>
                 <input type="text" name="firstName" placeholder="Vladislav ">
-                <br><br>
                 <label for="lastName">Last Name:</label>
                 <input type="text" name="lastName" placeholder="BOJICI ">
-                <br><br>
                 <label for="phoneNumber">Phone Number:</label>
                 <input type="text" name="phoneNumber" placeholder="(+40) 7** *** ***">
-                <br><br>
                 <label for="facebookLink">Facebook Link:</label>
                 <input type="text" name="facebookLink" placeholder="facebook.com/vladislav.bojici">
-                <br><br>
                 <label for="dateOfbirth">Birth Date:</label>
                 <input type="text" name="dateOfbirth" placeholder="11/09/1998">
-                <br><br><br>
-                </div>
-                <div class ="table">
-                    <table class="table1" style="width:100%">
-                        <tr>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Age</th>
-                        </tr>
-                        <tr>
-                          <td>Vladislav</td>
-                          <td>Bojici</td>
-                          <td>21</td>
-                        </tr>
-                        <tr>
-                          <td>Ion</td>
-                          <td>Anton</td>
-                          <td>23</td>
-                        </tr>
-                        <tr>
-                            <td>Vlad</td>
-                            <td>Vasile</td>
-                            <td>99</td>
-                        </tr>
-                        <tr>
-                            <td>Mos</td>
-                            <td>Craciun</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>Edi</td>
-                            <td>Bun</td>
-                            <td>33</td>
-                        </tr>
-
-                      </table>
                 </div>
             </form>
+            <div class ="table">
+                <table class="table1" style="width:50%">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Vladislav</td>
+                        <td>Bojici</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Ion</td>
+                        <td>Anton</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Vlad</td>
+                        <td>Vasile</td>
+                        <td>99</td>
+                    </tr>
+                    <tr>
+                        <td>Mos</td>
+                        <td>Craciun</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Edi</td>
+                        <td>Bun</td>
+                        <td>33</td>
+                    </tr>
+
+                </table>
+            </div>           
         </div>
     </body>
 </html>
