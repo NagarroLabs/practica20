@@ -101,7 +101,7 @@ main {
     left: 550px;
 }
 
-table, tr, th, td, form {
+table, tr, th, td, .asd2 {
     border: 2px solid purple;
     text-align: center;
     color: white;
