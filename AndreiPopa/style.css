@@ -1,0 +1,119 @@
+/* RESET VALUES cause of the browser */
+
+body, form, h1, h2, ul, li {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/AndreiPopa/img/sky.jpg);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    /*bring forward*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    color: black;
+    background-color: none;
+    border: 5px solid purple;
+    padding: 8px 12px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px purple;
+    border-radius: 20%;
+    text-align: center;
+    text-shadow: 6px 5px 5px red;
+}
+
+.picture {
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+    top: 135px;
+}
+
+.picture img {
+    /* Is fully containg inside the viewport*/
+    max-width: 100%;
+    height: 600px;
+    border-bottom: 4px solid purple;
+    border-left: 4px solid purple;
+    box-shadow: 10px 10px 10px purple;
+}
+
+.date {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    top: 145px;
+}
+
+.a {
+    border-bottom: 4px solid purple;
+    border-left: 4px solid purple;
+    box-shadow: 10px 10px 10px purple;
+    padding: 4%;
+    font-size: 35px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    background-color: black;
+    padding: 3%;
+    color: white;
+    max-width: 800px;
+    /*in the middle because of auto*/
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-left: 365px;
+}
+
+.text p {
+    text-align: right;
+    column-count: 2;
+    text-shadow: 3px 3px 3px blueviolet;
+}
+
+article h2 {
+    text-align: center;
+}
+
+main {
+    color: white;
+}
+
+.contact p {
+    text-align: left;
+    column-count: 2;
+    color: aliceblue;
+}
+
+.contact form {
+    position: relative;
+    color: red;
+    left: 550px;
+}
+
+table, tr, th, td, form {
+    border: 2px solid purple;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+.studentform {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.studenttable {
+    max-width: 100%;
+    margin: 0 auto;
+}
