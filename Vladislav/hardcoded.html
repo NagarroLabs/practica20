@@ -4,34 +4,64 @@
         <title>Hardcoded HTML</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body style="background-color: rgb(248, 253, 169);">
+    <body style="background-color: #e5e5e5;">
         <div>
-        <h1 style="text-align: center;">Personal Data</h1>
-        <br><br><br>
-        <h3><strong>Basic data:</strong></h3>
+        <h1 class="mainTitle">Profile</h1>
+        <img class="profilePic" src="assets/cat.png">
         
-        <ul>
-            <li><strong>First Name: </strong>Vladislav</li>
-            <li><strong>Last Name: </strong>Bojici</li>
-            <li><strong>Age: </strong>21</li>
-            <li><strong>Date of Birth: </strong>11/09/1998</li>
-            <li><strong>Facebook Profile: </strong><a href="https://www.facebook.com/vladislav.bojici/">Click me!</a></li>
-        </ul>
-        <img src="assets/download.jpg" >
-        <br><br>
+        <div class="fieldName">
+            <p class="firstName">First name</p>
+            <p class="lastName">Last name</p>
+            <p class="phoneNumber">Phone number</p>
+            <p class="profileLink">Profile link</p>
+            <p class="birthDate">Birth date</p>
         </div>
-        <div>
-            <main>
-            <h3>What about Scipio and Hannibal?</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-            like Aldus PageMaker including versions of Lorem Ipsum</p>
-            </main>
+
+        <div class="fieldData">
+            <p class="f_name">Bojici</p>
+            <p class="l_name">Vladislav</p>
+            <p class="p_number">(+40)773863215</p>
+            <a class="p_link" href="https://www.facebook.com/vladislav.bojici/">facebook</a>
+            <p class="b_date">11/09/1998</p>
+        </div>
+        
+        </div>
+        <div class ="table">
+            <table class="table1" style="width:50%">
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Vladislav</td>
+                  <td>Bojici</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td>Ion</td>
+                  <td>Anton</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                    <td>Vlad</td>
+                    <td>Vasile</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>Mos</td>
+                    <td>Craciun</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Edi</td>
+                    <td>Bun</td>
+                    <td>33</td>
+                </tr>
+
+              </table>
         </div>
     </body>
 </html>

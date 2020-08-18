@@ -13,15 +13,105 @@ tr{
 
 table {
     border-spacing: 5px;
+    position: absolute;
+    width: 674px;
+    height: 295px;
+    top:1170px;
+    left:365px;
   }
 
 .table1 tr:nth-child(even) {
-    background-color: rgb(212, 181, 181);
+    background-color: rgb(255, 255, 255);
   }
   .table1 tr:nth-child(odd) {
-    background-color: rgb(153, 102, 102);
+    background-color: rgb(196, 196, 196);
   }
   .table1 th {
-    color: #ffdd00;
-    background-color:#29712a;
+    color: #ffffff;
+    background-color:#000000;
   }
+.mainTitle{
+  text-align: center;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.profilePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 327px;
+  height: 327px;
+}
+.fieldName{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  color: #000000;
+}
+.firstName{
+  position: absolute;
+  left: 470px;
+  top: 596px;
+}
+.lastName{
+position: absolute;
+left: 472px;
+top: 691px;
+}
+.phoneNumber{
+position: absolute;
+left: 400px;
+top: 786px;
+}
+
+.profileLink{
+position: absolute;
+left: 469px;
+top: 881px;
+}
+.birthDate{
+  position: absolute;
+  left: 483px;
+  top: 976px;  
+}
+
+.fieldData{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+}
+.l_name{
+  position: absolute;
+  left: 705px;
+  top: 596px;
+}
+.f_name{
+  position: absolute;
+  left: 705px;
+  top: 691px;
+}
+.p_number{
+  position: absolute;
+  left: 705px;
+  top: 786px;
+}
+.p_link{
+  position: absolute;
+  left: 705px;
+  top: 916px;
+}
+.b_date{
+  position: absolute;
+  left: 705px;
+  top: 976px;
+}
