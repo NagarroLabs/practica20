@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+}
+
+form {
+  display: inline-block;
+}
+h1 {
+  color: white;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+th,
+td {
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #3399ff;
+  padding: 20px;
+}
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
