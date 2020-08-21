@@ -1,0 +1,177 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-auto-rows: minmax(100px,auto);
+    
+}
+.box1{
+    background-color: midnightblue;
+    
+}
+.box2{
+    background-color: darkturquoise;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(0.8);
+    border: darkgray solid 3px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.resize{
+    width: 350px;
+    height: auto;
+    margin-left: 125px;
+}
+
+h1{
+    color: darkgray;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+}
+h4{
+    color: darkgray;
+    opacity: 0.7;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+.box1 h5{
+    color: darkgray;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+.profileContent p{
+    height: 325px;
+    width: 325px;
+    margin-left: 133px;
+    text-align: center;
+    grid-auto-rows: minmax(100px,auto);
+    
+}
+p{
+    color: darkgray;
+    font-family: "Roboto";
+    font-size: 17px;
+    text-align: justify;
+}
+.contact{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box1 h3{
+    margin: 100px;
+    color: darkgray;
+    font-family: "Roboto";
+    margin-left: 120px;
+    text-transform: uppercase;
+}  
+.contactLeft p{
+    margin-left: 100px;
+    opacity: 0.8;
+} 
+.contactRight p{
+    opacity: 0.8;
+    align-items: center;
+}
+.box2 h1{
+    color: red;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: lighter;
+    padding: 0;
+}
+hr{
+    width: 800px;
+    background-color: indigo;
+    height: 3px;
+    border: 0;
+}
+.content{
+    margin-top: 40px;
+}
+.content h3{
+    color: indigo;
+    margin-top: 0;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+.content h4{
+    color: midnightblue;
+    text-transform: none;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 14px;
+}
+.content p{
+    color: midnightblue;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 13px;
+}
+
+.skillsContent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: midnightblue;
+
+}
+.skillsContent p{
+    color:midnightblue;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 15px;
+}
+ 
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: royalblue;
+    display: inline-block;
+    margin-top: 11px;
+}
+.dot2{
+    height: 19px;
+    width: 19px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0.5px solid white;
+    margin-top: 11px;
+}
+
+.skills3 p{
+    margin-left: 0;
+}
+.languageContent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: yellow;
+}
+.languageContent p{
+    color: midnightblue;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 15px;
+}
+.checked{
+    color:orangered;
+
+}
+.star{
+    margin-top: 15px;
+}

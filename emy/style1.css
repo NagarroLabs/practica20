@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(165, 137, 137);
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+    
+  }
+  th, td {
+padding: 15px;
+}
+  label{
+      background-color: brown;
+  }
+  #fname , #lname , #pnumber{
+      color: gold;
+  }
+ .namee{
+     background-color: rgb(66, 28, 47);
+     color: whitesmoke;
+     text-decoration-style: none;
+     
+
+
+ }
