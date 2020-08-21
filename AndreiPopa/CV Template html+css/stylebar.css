@@ -1,0 +1,182 @@
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024;
+}
+
+.leftbar {
+    position: absolute;
+    width: 410px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: rgb(53, 2, 2);
+}
+
+.eclipse {
+    position: absolute;
+    width: 266px;
+    height: 244px;
+    left: 72px;
+    top: 78px;
+    background-image: cover;
+    box-sizing: border-box;
+}
+
+.eclipse img {
+    width: 266px;
+    height: 244px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.topics {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+li:first-child {
+    position: absolute;
+    width: 237px;
+    height: 69px;
+    left: 34px;
+    top: 382px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+li:nth-child(2) {
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    left: 34px;
+    top: 611px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+li:nth-child(3) {
+    position: absolute;
+    width: 178px;
+    height: 49px;
+    left: 34px;
+    top: 832px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    width: 366px;
+    height: 66px;
+    left: 22px;
+    top: 470px;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.svg {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 22px;
+    top: 428px;
+}
+
+.svg img {
+    margin-top: 8px;
+}
+
+.skills {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.VS {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 150px;
+    top: 676px;
+}
+
+.MS {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 150px;
+    top: 703px;
+}
+
+.HTML {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 150px;
+    top: 731px;
+}
+
+.CSS {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 150px;
+    top: 765px;
+}
+
+.WIREFRAME {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 150px;
+    top: 796px;
+}
+
+.progressbar {
+    position: relative;
+    left: 25px;
+    top: 646px;
+    width: 8%;
+    height: 1%;
+    margin: 10px;
+    border: black solid;
+}
+
+.hobbies {
+    position: absolute;
+    width: 108px;
+    height: 38px;
+    left: 175px;
+    top: 910px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
