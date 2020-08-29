@@ -1,0 +1,22 @@
+{
+  "name": "projectwithnagarro",
+  "version": "1.0.0",
+  "description": "\"Using HTML+CSS+FIGMA+JS+Node.js(Express JS) we created a web server witch contains a CV profile\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagarroLabs/practica20.git"
+  },
+  "author": "Andrei Popa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NagarroLabs/practica20/issues"
+  },
+  "homepage": "https://github.com/NagarroLabs/practica20#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
