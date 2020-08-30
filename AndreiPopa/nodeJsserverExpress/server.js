@@ -7,10 +7,13 @@ app = express();
 
 //register view engine
 
+//middleware & static files (public your assests)
+app.use(express.static('public'));
+
 //Listen for request 
 
 app.listen(8080, function () {
-    console.log("App listening on port 8080");
+    console.log("My door is open 8080");
 });
 
 app.get('/', (req, res) => {
@@ -30,6 +33,8 @@ app.get('/AndreiPopaForm', (req, res) => {
     res.sendFile('./sites/myform.html', { root: __dirname });
 });
 
+
+//Middleware Function 404 because is work to top to bottom
 app.use((req, res) => {
     res.status(404).sendFile('./sites/404.html', { root: __dirname });
 })
