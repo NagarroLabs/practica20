@@ -121,6 +121,12 @@ top: 881px;
   top: 976px;
 }
 .submissionForm{
-  max-width: 1000px;
-  
+  display: flex;
+  justify-content: center;
 }
+.inputFields{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
