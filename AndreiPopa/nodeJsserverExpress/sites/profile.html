@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Example of page </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="style.css">
+    <script src='main.js'></script>
+</head>
+
+<style>
+    /* RESET VALUES cause of the browser */
+
+    body,
+    form,
+    h1,
+    h2,
+    ul,
+    li {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-image: url(/AndreiPopa/img/sky.jpg);
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        /*bring forward*/
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    header h1 {
+        color: black;
+        background-color: none;
+        border: 5px solid purple;
+        padding: 8px 12px;
+        display: inline-block;
+        box-shadow: 5px 5px 5px 5px purple;
+        border-radius: 20%;
+        text-align: center;
+        text-shadow: 6px 5px 5px red;
+    }
+
+    .picture {
+        position: relative;
+        left: 300px;
+        bottom: 10px;
+        top: 135px;
+    }
+
+    .picture img {
+        /* Is fully containg inside the viewport*/
+        max-width: 100%;
+        height: 600px;
+        border-bottom: 4px solid purple;
+        border-left: 4px solid purple;
+        box-shadow: 10px 10px 10px purple;
+    }
+
+    .date {
+        position: relative;
+        max-width: 500px;
+        margin: 0 auto;
+        top: 145px;
+    }
+
+    .a {
+        border-bottom: 4px solid purple;
+        border-left: 4px solid purple;
+        box-shadow: 10px 10px 10px purple;
+        padding: 4%;
+        font-size: 35px;
+        background-color: grey;
+        color: white;
+        text-align: center;
+    }
+
+    .skills {
+        background-color: black;
+        padding: 3%;
+        color: white;
+        max-width: 800px;
+        /*in the middle because of auto*/
+        margin: 0 auto;
+        margin-top: 110px;
+        margin-left: 365px;
+    }
+
+    .text p {
+        text-align: right;
+        column-count: 2;
+        text-shadow: 3px 3px 3px blueviolet;
+    }
+
+    article h2 {
+        text-align: center;
+    }
+
+    main {
+        color: white;
+    }
+
+    .contact p {
+        text-align: left;
+        column-count: 2;
+        color: aliceblue;
+    }
+
+    .contact form {
+        position: relative;
+        color: red;
+        left: 550px;
+    }
+
+    table,
+    tr,
+    th,
+    td,
+    .asd2 {
+        border: 2px solid purple;
+        text-align: center;
+        color: white;
+        background-color: grey;
+    }
+
+    .studentform {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .studenttable {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Profile Page</h1>
+    </header>
+
+
+    <div class="picture">
+        <img src="img/profile.jpeg">
+    </div>
+
+
+    <div class="date">
+        <form class="a">
+            First Name: Constantin Andrei<br>
+            Last Name: Popa<br>
+            Phone Number: 0756897823<br>
+            Profile link: <a href="profile.html"> page </a><br>
+            Birth date: 1993/06/01
+        </form>
+    </div>
+
+
+
+
+
+    <nav class="skills">
+
+        <ul>
+            <div>
+                <h2>My skills!</h2>
+            </div>
+
+            <li>MicrosoftTeams:</li>
+            <div class="w3-green" style="height:24px;width:75%">100%</div>
+
+            <li>VisualCode:</li>
+            <div class="w3-green" style="height:24px;width:75%">100%</div>
+
+            <li>GitHub:</li>
+            <div class="w3-green" style="height:24px;width:50%">75%</div>
+
+
+            <li>HTML:</li>
+            <div class="w3-green" style="height:24px;width:25%">25%</div>
+
+            <li>CSS:</li>
+            <div class="w3-green" style="height:24px;width:25%">25%</div>
+
+
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Keep your marketing all in one place!</h2>
+
+
+
+            <ul class="text">
+                <li>
+                    <p>Having a website means customers are always able to find you – anytime, anywhere. Even outside of
+                        business hours, your website continues to find and secure new customers. It offers the user
+                        convenience as they can access the information they need in the comfort of their own home, with
+                        no
+                        added pressure to buy. Plus, as most companies nowadays have their own website, there’s every
+                        chance
+                        you could be losing customers to your competitors by staying offline</p>
+                </li>
+                <li>
+                    <p>In today’s modern world, there is an expectation for any reputable company to have some kind of
+                        online presence. Potential customers would likely be distrusting of any business that didn't
+                        have a
+                        telephone number or a physical address, and the same can be said for not having a website and
+                        email
+                        address. These are useful tools to share crucial information about your business with customers
+                        and
+                        answer all the What’s and Why’s that they may have. What’s more, having a good quality,
+                        easy-to-use
+                        website makes customers feel comfortable using your services, as they will assume they can
+                        expect
+                        the same positive experience in all areas of your business.</p>
+                </li>
+        </article>
+        </ul>
+
+    </main>
+
+
+    </div>
+
+    <section class="contact">
+        <h2>Contact me today!</h2>
+        <p>Do you have other questions? Don’t worry, there aren’t any dumb questions.
+
+            Just fill out the form below and we’ll get back to you as soon as possible
+            (usually within one business day"</p>
+
+        <form class="asd">
+            <label for="name">Name:</label>
+            <input type="email" name="email" placeholder="Type name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Type email">
+        </form>
+    </section>
+
+    <footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="text-align: center; font-size: larger;">©Copyright Reserved</p>
+    </footer>
+
+
+</body>
+
+</html>
