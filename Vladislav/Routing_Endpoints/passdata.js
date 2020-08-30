@@ -13,7 +13,6 @@ window.addEventListener('load', ()=>{
     const flink = localStorage.getItem('FACEBOOK');
     const dbirth = localStorage.getItem('BIRTHDATE');
 
-
     document.getElementById('result-fname').innerHTML = name;
     document.getElementById('result-lname').innerHTML = surname;
     document.getElementById('result-pnum').innerHTML = pnumber;
